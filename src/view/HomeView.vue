@@ -29,6 +29,10 @@ export default {
         "pie",
         "line",
         "multiline",
+        "scatter",
+        "grid",
+        "candlestick",
+        "radar",
       ],
     };
   },

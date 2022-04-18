@@ -52,6 +52,26 @@ const routes = [
     name: "multiline",
     component: () => import("../view/echarts/8.MultiLineView"),
   },
+  {
+    path: "/scatter",
+    name: "scatter",
+    component: () => import("../view/echarts/9.ScatterView"),
+  },
+  {
+    path: "/grid",
+    name: "grid",
+    component: () => import("../view/echarts/10.GridView"),
+  },
+  {
+    path: "/candlestick",
+    name: "candlestick",
+    component: () => import("../view/echarts/11.CandlestickView"),
+  },
+  {
+    path: "/radar",
+    name: "radar",
+    component: () => import("../view/echarts/12.RadarView"),
+  },
 ];
 
 const router = new VueRouter({
