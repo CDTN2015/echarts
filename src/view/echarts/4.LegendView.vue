@@ -24,6 +24,7 @@ export default {
         textStyle: {
           color: "red",
           fontSize: 30,
+          // <p>的样式都有
         },
       },
       xAxis: {
