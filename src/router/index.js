@@ -72,6 +72,21 @@ const routes = [
     name: "radar",
     component: () => import("../view/echarts/12.RadarView"),
   },
+  {
+    path: "/funnel",
+    name: "funnel",
+    component: () => import("../view/echarts/13.FunnelView"),
+  },
+  {
+    path: "/gauge",
+    name: "gauge",
+    component: () => import("../view/echarts/14.GaugeView"),
+  },
+  {
+    path: "/graph",
+    name: "graph",
+    component: () => import("../view/echarts/15.GraphView"),
+  },
 ];
 
 const router = new VueRouter({

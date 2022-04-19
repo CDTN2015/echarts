@@ -33,6 +33,9 @@ export default {
         "grid",
         "candlestick",
         "radar",
+        "funnel",
+        "gauge",
+        "graph",
       ],
     };
   },
